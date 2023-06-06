@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Code - FizzBuzz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="p-4">
+        <div class="logo-nav-container">
+            <img src="images/fizzbuzz_logo.png" alt="Logo" class="logo">
+            <!-- Navigation code -->
+            <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fizzbuzz.html">The App</a></li>
+                    <li><a href="code.html">The Code</a></li>
+                    <li><a href="">GitRepo</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    
+
+    <main class="container">
+        <section id="my-code" class="mt-4">
+            <h2>My Code - FizzBuzz</h2>
+   
+            <h3>JavaScript</h3>
+            <pre><code id="js-code"></code></pre>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+
+        // Fetch JavaScript code and display
+        fetch('script.js')
+            .then(response => response.text())
+            .then(js => {
+                document.getElementById('js-code').innerText = js;
+            });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer class="p-4">
+    <!-- Footer code -->
+    <p>
+        &copy; 2021 FizzBuzz - by Prabhi Boyal
+    </p>
+    <!-- ... -->
+</footer>
+</html>

@@ -1,0 +1,46 @@
+# Fizz Buzz Web App
+
+The Fizz Buzz web app is a simple application that allows users to play the Fizz Buzz game by inputting a number range and defining the conditions for "Fizz" and "Buzz" numbers.
+
+## How to Use
+
+1. Open the Fizz Buzz web app in your web browser.
+
+2.click the "play" button or "The App" link in the nav to go to the fizzbuzz page.
+
+3. Enter the desired number range in the input fields provided. The number range defines the range of numbers to play the Fizz Buzz game.
+4. Specify the numbers that should be replaced with "Fizz" and "Buzz". For example, if you want to replace numbers divisible by 3 with "Fizz" and numbers divisible by 5 with "Buzz", enter "3" in the "Fizz" input field and "5" in the "Buzz" input field.
+
+4. Click the "Generate FizzBuzz" button to start the game.
+
+5. The Fizz Buzz results will be displayed on the screen, indicating which numbers are replaced with "Fizz", "Buzz", or "FizzBuzz" according to the defined conditions.
+
+## Technologies Used
+
+The Fizz Buzz web app is built using the following technologies:
+
+- HTML: Provides the structure and elements of the web app.
+- CSS: Styles the web app to enhance its appearance and layout.
+- JavaScript: Implements the Fizz Buzz game logic and user interaction.
+- Bootstrap: A CSS framework used for styling and responsive design.
+
+
+## Getting Started
+
+To get started with the Fizz Buzz web app locally on your machine, follow these steps:
+
+1. Clone the repository or download the source code files.
+
+2. Open the `index.html` file in a web browser.
+
+3. You can now use the Fizz Buzz web app and play the game by following the instructions provided on the page.
+
+## Contribution
+
+Contributions to the Fizz Buzz web app are welcome! If you find any issues or have ideas for improvements, please open an issue or submit a pull request on the GitHub repository.
+
+## License
+
+The Fizz Buzz web app is released under the [MIT License](LICENSE).
+
+

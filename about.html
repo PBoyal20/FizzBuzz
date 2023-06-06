@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About FizzBuzz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="p-4">
+        <div class="logo-nav-container">
+            <img src="images/fizzbuzz_logo.png" alt="Logo" class="logo">
+            <!-- Navigation code -->
+            <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fizzbuzz.html">The App</a></li>
+                    <li><a href="code.html">The Code</a></li>
+                    <li><a href="">GitRepo</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="mt-4">
+            <h2>About FizzBuzz</h2>
+            <p>
+                FizzBuzz is a popular coding challenge often used in interviews to assess a candidate's basic programming skills. The goal of FizzBuzz is to print a sequence of numbers from 1 to a given number, following these rules:
+            </p>
+            <ol>
+                <li>For multiples of 3, print "Fizz".</li>
+                <li>For multiples of 5, print "Buzz".</li>
+                <li>For multiples of both 3 and 5, print "FizzBuzz".</li>
+                <li>For other numbers, simply print the number itself.</li>
+            </ol>
+            <p>
+                The FizzBuzz solution can be achieved using conditional statements and loops in a programming language like JavaScript. Here's an example of how it can be implemented:
+            </p>
+            <pre>
+                function fizzBuzz(number) {
+                    for (let i = 1; i <= number; i++) {
+                        if (i % 3 === 0 && i % 5 === 0) {
+                            console.log("FizzBuzz");
+                        } else if (i % 3 === 0) {
+                            console.log("Fizz");
+                        } else if (i % 5 === 0) {
+                            console.log("Buzz");
+                        } else {
+                            console.log(i);
+                        }
+                    }
+                }
+
+                fizzBuzz(15);
+            </pre>
+            <p>
+                This implementation checks each number in the given range and prints the corresponding value based on the rules of FizzBuzz. The `fizzBuzz` function takes a parameter `number` representing the end of the range, and it iterates from 1 to that number, evaluating each number along the way.
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+<footer class="p-4">
+    <!-- Footer code -->
+    <p>
+        &copy; 2021 FizzBuzz - by Prabhi Boyal
+    </p>
+    <!-- ... -->
+</footer>
+</html>
